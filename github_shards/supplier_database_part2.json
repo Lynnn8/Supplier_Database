@@ -1,0 +1,1591 @@
+{
+  "database_version": "trustaxis-suppliers-v6-shard",
+  "shard_name": "part2",
+  "generated_at": "2026-06-12T09:41:20.434936+00:00",
+  "source_database_version": "trustaxis-suppliers-v6",
+  "source_checksum_sha256": "596e99140570b1d4f1bef55e8e808777c4f71a46a834bf41d8d36fe9a687fe16",
+  "supplier_ids": [
+    "S004",
+    "S005",
+    "S006"
+  ],
+  "supplier_count": 3,
+  "suppliers": [
+    {
+      "supplier_id": "S004",
+      "source_supplier_id": "M007",
+      "short_name": "睿尔曼",
+      "technology": {
+        "short_name": "睿尔曼",
+        "supplier_id": "S004",
+        "technology_route": "机器人本体与轻量化关节集成路线，强调协作机械臂关节、控制器和整机算法协同；可提供关节级方案但更偏整机应用。",
+        "competitive_moat": "机械臂整机验证、关节控制和应用软件协同能力较强；作为纯零部件供应商的开放程度待确认。",
+        "rd_team_size_range": "100-200",
+        "customization_supported": "是",
+        "customization_lead_time": "接口适配2-4周；关节/控制深度定制2-5个月"
+      },
+      "manufacturing": {
+        "short_name": "睿尔曼",
+        "supplier_id": "S004",
+        "monthly_capacity": "1000-3000套机器人关节/整机配套件",
+        "production_line_count": "1条整机装配线，1条关节装调线，若干测试工位",
+        "key_equipment": "关节标定台、机械臂整机测试平台、减速器装配工装",
+        "max_historical_order": "测试数据：单批300台机械臂配套关节",
+        "notes": "更适合整机配套交付，开放零部件供货产能需确认"
+      },
+      "quality": {
+        "short_name": "睿尔曼",
+        "supplier_id": "S004",
+        "quality_certifications": "ISO9001，医疗/协作机器人相关认证待确认",
+        "outgoing_inspection_items": "关节零位、重复定位、噪声、温升、整机连续运行",
+        "defect_rate": "1%-2%",
+        "traceability_method": "整机SN+关节SN绑定，维修记录可追踪",
+        "inspection_equipment": "机械臂标定平台、重复定位测试设备、老化架"
+      },
+      "delivery": {
+        "short_name": "睿尔曼",
+        "supplier_id": "S004",
+        "sample_lead_time": "机械臂/关节样品2-4周",
+        "batch_lead_time": "整机配套批量6-10周，单独关节供货待确认",
+        "common_delay_reasons": "整机项目优先级、关节标定和客户接口适配",
+        "inventory_strategy": "核心关节为整机备料，外供库存有限",
+        "after_sales_response": "应用工程师支持，重大客户可现场联调",
+        "on_time_delivery_rate": "82%-90%"
+      },
+      "business": {
+        "short_name": "睿尔曼",
+        "supplier_id": "S004",
+        "price_range": "关节/机械臂方案按项目报价，单关节估算3000-10000元",
+        "moq": "样品1套，外供批量需专项确认",
+        "payment_method": "预付50%，验收后尾款；重点客户可议",
+        "warranty_period": "12个月",
+        "customization_fee": "接口和控制适配通常收费，5-30万元",
+        "robot_business_share": 0.8
+      },
+      "evidence": [
+        {
+          "short_name": "睿尔曼",
+          "evidence_id": "EVD_S004_01",
+          "supplier_id": "S004",
+          "source_type": "产品手册",
+          "covered_fields": "technology_route,competitive_moat,rd_team_size_range,customization_supported,customization_lead_time",
+          "source_confidence": "中"
+        },
+        {
+          "short_name": "睿尔曼",
+          "evidence_id": "EVD_S004_02",
+          "supplier_id": "S004",
+          "source_type": "口述",
+          "covered_fields": "monthly_capacity,production_line_count,key_equipment,max_historical_order,notes",
+          "source_confidence": "低"
+        },
+        {
+          "short_name": "睿尔曼",
+          "evidence_id": "EVD_S004_03",
+          "supplier_id": "S004",
+          "source_type": "测试报告",
+          "covered_fields": "quality_certifications,outgoing_inspection_items,defect_rate,traceability_method,inspection_equipment",
+          "source_confidence": "高"
+        },
+        {
+          "short_name": "睿尔曼",
+          "evidence_id": "EVD_S004_04",
+          "supplier_id": "S004",
+          "source_type": "物流单",
+          "covered_fields": "sample_lead_time,batch_lead_time,common_delay_reasons,inventory_strategy,after_sales_response,on_time_delivery_rate",
+          "source_confidence": "高"
+        },
+        {
+          "short_name": "睿尔曼",
+          "evidence_id": "EVD_S004_05",
+          "supplier_id": "S004",
+          "source_type": "报价单",
+          "covered_fields": "price_range,moq,payment_method,warranty_period,customization_fee,robot_business_share",
+          "source_confidence": "中"
+        }
+      ],
+      "products": {
+        "source_document": "睿尔曼-产品画册.pdf",
+        "product_categories": [
+          "仿人双臂机器人手臂",
+          "仿人机械臂",
+          "动力关节",
+          "协作机械臂",
+          "长臂仿人机械臂",
+          "高性能机器人关节"
+        ],
+        "product_series": [
+          "ECO",
+          "RM",
+          "RML",
+          "RX",
+          "WHG",
+          "WHJ"
+        ],
+        "model_count": 27,
+        "sample_models": [
+          "WHJ10-B",
+          "WHJ10-N",
+          "WHJ03",
+          "WHJ30",
+          "WHJ60",
+          "WHJ120",
+          "WHJ10力矩版",
+          "WHJ30力矩版",
+          "WHJ60力矩版",
+          "WHG1410",
+          "WHG1730",
+          "WHG2060"
+        ],
+        "voltage_platforms": [
+          "24/48V",
+          "24V",
+          "48V",
+          "DC 24V",
+          "DC20~30V"
+        ],
+        "max_peak_torque_nm": null,
+        "max_rated_torque_nm": 240.0,
+        "max_speed_rpm": 75.0,
+        "search_text": "睿尔曼智能 睿尔曼-产品画册.pdf 动力关节 WHJ 精密装配、抛光打磨、协作防碰、柔性抓取、各类机器人 WHJ 力矩系列 WHJ10-B 24/48V 63W 10Nm 1.3A (48V) 75RPM (48V) 455g 50*73mm 4mm 80 0~50℃ 16bits 18bits 插销式制动 CANFD WHJ10-N 24/48V 63W 10Nm 1.3A (48V) 75RPM (48V) 455g 50*64mm 4mm 80 0~50℃ 16bits 18bits 软抱闸 CANFD WHJ03 24/48V 20W 3Nm 0.4A (48V) 60RPM (48V) 170g 33*48mm 4mm 100 0~50℃ 16bits 18bits 软抱闸 CANFD WHJ30 24/48V 137W 30Nm 2.8A (48V) 75RPM (48V) 750g 60*86.5mm 9mm 80 0~50℃ 16bits 18bits 插销式制动 CANFD WHJ60 24/48V 264W 60Nm 5.3A (48V) 60RPM (48V) 1040g 70*91mm 9mm 100 0~50℃ 16bits 18bits 插销式制动 CANFD WHJ120 48V 857W 120Nm 17.8A 30RPM 2300g 88*109mm 16mm 100 0~50℃ 16bits 18bits 电磁抱闸 CANFD WHJ10力矩版 24V 90W 10Nm 4A 37.5RPM 489g 50*78mm 8mm 80 0~50℃ 16bits 18bits 软抱闸 CANFD WHJ30力矩版 24V 256W 30Nm 11A 37.5RPM 820g 60*101mm 7mm 80 0~50℃ 16bits 18bits 插销式制动 CANFD WHJ60力矩版 24V 336W 60Nm 14A 30RPM 1121g 70*106mm 9mm 100 0~50℃ 16bits 18bits 插销式制动 CANFD 高性能机器人关节 WHG 工业自动化、协作机器人、人形机器人、半导体、精密设备 WHG 系列 WHG1410 24/48V 73W 10Nm 1.5A 75RPM 800g 70*69mm 9mm 100 0~50℃ 16bits 18bits 电磁抱闸 CANFD WHG1730 24/48V 155W 30Nm 3A 75RPM 1308g 80*80mm 9mm 100 0~50℃ 16bits 18bits 电磁抱闸 CANFD WHG2060 24/48V 287W 60Nm 6A 60RPM 1770g 90*92mm 9mm 100 0~50℃ 16bits 18bits 电磁抱闸 CANFD WHG25120 24/48V 611W 120Nm 13A 45RPM 2816g 110*103mm 16mm 100 0~50℃ 16bits 18bits 电磁抱闸 CANFD WHG32240 24/48V 873W 240Nm 18A 27RPM 5773g 142*127mm 18mm 100 0~50℃ 16bits 18bits 电磁抱闸 CANFD 仿人机械臂 RM 新零售、新餐饮、生活服务、大健康、展会展览 RM 系列 RM65-标准版 DC 24V ≤150W 6 610mm 5kg 7.2kg ±0.05mm ≤1.8m/s ≤900W φ107mm 0-45℃ 1~3关节硬抱闸; 4~6关节软抱闸 仿人构型 RM65-六维力版 DC 24V ≤150W 6 627mm 5kg 7.3kg ±0.05mm ≤1.8m/s ≤900W φ107mm 0-45℃ 1~3关节硬抱闸; 4~6关节软抱闸 200N/7Nm ±0.5%FS 仿人构型 RM75-标准版 DC 24V ≤200W 7 610mm 5kg 7.8kg ±0.05mm ≤1.8m/s ≤1000W φ107mm 0-45℃ 1~4关节硬抱闸; 5~7关节软抱闸 仿人构型 RM75-六维力版 DC 24V ≤200W 7 627mm 5kg 7.9kg ±0.05mm ≤1.8m/s ≤1000W φ107mm 0-45℃ 1~4关节硬抱闸; 5~7关节软抱闸 200N/7Nm ±0.5%FS 仿人构型 长臂仿人机械臂 RML 新零售、新餐饮、生活服务、大健康、展会展览 RML 系列 RML63-标准版 DC 24V ≤150W 6 900mm 3kg 10kg ±0.05mm ≤2.8m/s ≤900W φ107mm 0-45℃ 1~4关节硬抱闸; 5~6关节软抱闸 仿人构型 RML63-六维力版 DC 24V ≤150W 6 917mm 3kg 10.1kg ±0.05mm ≤2.8m/s ≤900W φ107mm 0-45℃ 1~4关节硬抱闸; 5~6关节软抱闸 200N/7Nm ±0.5%FS 仿人构型 协作机械臂 ECO 新零售、工业产线、按摩理疗、咖啡机器人、医疗 ECO 系列 ECO65-标准版 DC 24V ≤150W 6 610mm 5kg 7.8kg ±0.05mm ≤1.8m/s ≤900W φ107mm 0-45℃ 1~6关节硬抱闸 协作臂构型 ECO65-六维力版 DC 24V ≤150W 6 627mm 5kg 7.9kg ±0.05mm ≤1.8m/s ≤900W φ107mm 0-45℃ 1~6关节硬抱闸 200N/7Nm ±0.5%FS 协作臂构型 ECO63-标准版 DC 24V ≤150W 6 900mm 3kg 9.5kg ±0.05mm ≤2.8m/s ≤900W φ107mm 0-45℃ 1~6关节硬抱闸 协作臂构型 ECO63-六维力版 DC 24V ≤150W 6 917mm 3kg 9.6kg ±0.05mm ≤2.8m/s ≤900W φ107mm 0-45℃ 1~6关节硬抱闸 200N/7Nm ±0.5%FS 协作臂构型 ECO62-标准版 DC 24V ≤100W 6 355mm 1kg 3.3kg ±0.1mm <1.3m/s ≤250W φ107mm 0-50℃ 1~6关节硬抱闸 协作臂构型 仿人双臂机器人手臂 RX 零售、餐饮、工业、仓储、医疗等场景下的人形机器人 RX 系列 RX75-标准版 DC20~30V ≤200W 7 709mm 5kg 8.2kg ±0.2mm ≤2.2m/s 0-45℃ 1~4关节硬抱闸; 5~7关节软抱闸 200N/7Nm 0.5%FS 仿人构型 RX75-视觉版 DC20~30V ≤200W 7 732mm 5kg 8.4kg ±0.2mm ≤2.2m/s 0-45℃ 1~4关节硬抱闸; 5~7关节软抱闸 200N/7Nm 0.5%FS D405 仿人构型"
+      },
+      "search_text": "睿尔曼 S004 机器人本体与轻量化关节集成路线，强调协作机械臂关节、控制器和整机算法协同；可提供关节级方案但更偏整机应用。 机械臂整机验证、关节控制和应用软件协同能力较强；作为纯零部件供应商的开放程度待确认。 100-200 是 接口适配2-4周；关节/控制深度定制2-5个月 睿尔曼 S004 1000-3000套机器人关节/整机配套件 1条整机装配线，1条关节装调线，若干测试工位 关节标定台、机械臂整机测试平台、减速器装配工装 测试数据：单批300台机械臂配套关节 更适合整机配套交付，开放零部件供货产能需确认 睿尔曼 S004 ISO9001，医疗/协作机器人相关认证待确认 关节零位、重复定位、噪声、温升、整机连续运行 1%-2% 整机SN+关节SN绑定，维修记录可追踪 机械臂标定平台、重复定位测试设备、老化架 睿尔曼 S004 机械臂/关节样品2-4周 整机配套批量6-10周，单独关节供货待确认 整机项目优先级、关节标定和客户接口适配 核心关节为整机备料，外供库存有限 应用工程师支持，重大客户可现场联调 82%-90% 睿尔曼 S004 关节/机械臂方案按项目报价，单关节估算3000-10000元 样品1套，外供批量需专项确认 预付50%，验收后尾款；重点客户可议 12个月 接口和控制适配通常收费，5-30万元 0.8 睿尔曼智能 睿尔曼-产品画册.pdf 动力关节 WHJ 精密装配、抛光打磨、协作防碰、柔性抓取、各类机器人 WHJ 力矩系列 WHJ10-B 24/48V 63W 10Nm 1.3A (48V) 75RPM (48V) 455g 50*73mm 4mm 80 0~50℃ 16bits 18bits 插销式制动 CANFD WHJ10-N 24/48V 63W 10Nm 1.3A (48V) 75RPM (48V) 455g 50*64mm 4mm 80 0~50℃ 16bits 18bits 软抱闸 CANFD WHJ03 24/48V 20W 3Nm 0.4A (48V) 60RPM (48V) 170g 33*48mm 4mm 100 0~50℃ 16bits 18bits 软抱闸 CANFD WHJ30 24/48V 137W 30Nm 2.8A (48V) 75RPM (48V) 750g 60*86.5mm 9mm 80 0~50℃ 16bits 18bits 插销式制动 CANFD WHJ60 24/48V 264W 60Nm 5.3A (48V) 60RPM (48V) 1040g 70*91mm 9mm 100 0~50℃ 16bits 18bits 插销式制动 CANFD WHJ120 48V 857W 120Nm 17.8A 30RPM 2300g 88*109mm 16mm 100 0~50℃ 16bits 18bits 电磁抱闸 CANFD WHJ10力矩版 24V 90W 10Nm 4A 37.5RPM 489g 50*78mm 8mm 80 0~50℃ 16bits 18bits 软抱闸 CANFD WHJ30力矩版 24V 256W 30Nm 11A 37.5RPM 820g 60*101mm 7mm 80 0~50℃ 16bits 18bits 插销式制动 CANFD WHJ60力矩版 24V 336W 60Nm 14A 30RPM 1121g 70*106mm 9mm 100 0~50℃ 16bits 18bits 插销式制动 CANFD 高性能机器人关节 WHG 工业自动化、协作机器人、人形机器人、半导体、精密设备 WHG 系列 WHG1410 24/48V 73W 10Nm 1.5A 75RPM 800g 70*69mm 9mm 100 0~50℃ 16bits 18bits 电磁抱闸 CANFD WHG1730 24/48V 155W 30Nm 3A 75RPM 1308g 80*80mm 9mm 100 0~50℃ 16bits 18bits 电磁抱闸 CANFD WHG2060 24/48V 287W 60Nm 6A 60RPM 1770g 90*92mm 9mm 100 0~50℃ 16bits 18bits 电磁抱闸 CANFD WHG25120 24/48V 611W 120Nm 13A 45RPM 2816g 110*103mm 16mm 100 0~50℃ 16bits 18bits 电磁抱闸 CANFD WHG32240 24/48V 873W 240Nm 18A 27RPM 5773g 142*127mm 18mm 100 0~50℃ 16bits 18bits 电磁抱闸 CANFD 仿人机械臂 RM 新零售、新餐饮、生活服务、大健康、展会展览 RM 系列 RM65-标准版 DC 24V ≤150W 6 610mm 5kg 7.2kg ±0.05mm ≤1.8m/s ≤900W φ107mm 0-45℃ 1~3关节硬抱闸; 4~6关节软抱闸 仿人构型 RM65-六维力版 DC 24V ≤150W 6 627mm 5kg 7.3kg ±0.05mm ≤1.8m/s ≤900W φ107mm 0-45℃ 1~3关节硬抱闸; 4~6关节软抱闸 200N/7Nm ±0.5%FS 仿人构型 RM75-标准版 DC 24V ≤200W 7 610mm 5kg 7.8kg ±0.05mm ≤1.8m/s ≤1000W φ107mm 0-45℃ 1~4关节硬抱闸; 5~7关节软抱闸 仿人构型 RM75-六维力版 DC 24V ≤200W 7 627mm 5kg 7.9kg ±0.05mm ≤1.8m/s ≤1000W φ107mm 0-45℃ 1~4关节硬抱闸; 5~7关节软抱闸 200N/7Nm ±0.5%FS 仿人构型 长臂仿人机械臂 RML 新零售、新餐饮、生活服务、大健康、展会展览 RML 系列 RML63-标准版 DC 24V ≤150W 6 900mm 3kg 10kg ±0.05mm ≤2.8m/s ≤900W φ107mm 0-45℃ 1~4关节硬抱闸; 5~6关节软抱闸 仿人构型 RML63-六维力版 DC 24V ≤150W 6 917mm 3kg 10.1kg ±0.05mm ≤2.8m/s ≤900W φ107mm 0-45℃ 1~4关节硬抱闸; 5~6关节软抱闸 200N/7Nm ±0.5%FS 仿人构型 协作机械臂 ECO 新零售、工业产线、按摩理疗、咖啡机器人、医疗 ECO 系列 ECO65-标准版 DC 24V ≤150W 6 610mm 5kg 7.8kg ±0.05mm ≤1.8m/s ≤900W φ107mm 0-45℃ 1~6关节硬抱闸 协作臂构型 ECO65-六维力版 DC 24V ≤150W 6 627mm 5kg 7.9kg ±0.05mm ≤1.8m/s ≤900W φ107mm 0-45℃ 1~6关节硬抱闸 200N/7Nm ±0.5%FS 协作臂构型 ECO63-标准版 DC 24V ≤150W 6 900mm 3kg 9.5kg ±0.05mm ≤2.8m/s ≤900W φ107mm 0-45℃ 1~6关节硬抱闸 协作臂构型 ECO63-六维力版 DC 24V ≤150W 6 917mm 3kg 9.6kg ±0.05mm ≤2.8m/s ≤900W φ107mm 0-45℃ 1~6关节硬抱闸 200N/7Nm ±0.5%FS 协作臂构型 ECO62-标准版 DC 24V ≤100W 6 355mm 1kg 3.3kg ±0.1mm <1.3m/s ≤250W φ107mm 0-50℃ 1~6关节硬抱闸 协作臂构型 仿人双臂机器人手臂 RX 零售、餐饮、工业、仓储、医疗等场景下的人形机器人 RX 系列 RX75-标准版 DC20~30V ≤200W 7 709mm 5kg 8.2kg ±0.2mm ≤2.2m/s 0-45℃ 1~4关节硬抱闸; 5~7关节软抱闸 200N/7Nm 0.5%FS 仿人构型 RX75-视觉版 DC20~30V ≤200W 7 732mm 5kg 8.4kg ±0.2mm ≤2.2m/s 0-45℃ 1~4关节硬抱闸; 5~7关节软抱闸 200N/7Nm 0.5%FS D405 仿人构型",
+      "compact_index": {
+        "supplier_id": "S004",
+        "source_supplier_id": "M007",
+        "name": "睿尔曼",
+        "technology_route": "机器人本体与轻量化关节集成路线，强调协作机械臂关节、控制器和整机算法协同；可提供关节级方案但更偏整机应用。",
+        "customization_supported": "是",
+        "product_categories": [
+          "仿人双臂机器人手臂",
+          "仿人机械臂",
+          "动力关节",
+          "协作机械臂",
+          "长臂仿人机械臂",
+          "高性能机器人关节"
+        ],
+        "product_series": [
+          "ECO",
+          "RM",
+          "RML",
+          "RX",
+          "WHG",
+          "WHJ"
+        ],
+        "model_count": 27,
+        "voltage_platforms": [
+          "24/48V",
+          "24V",
+          "48V",
+          "DC 24V",
+          "DC20~30V"
+        ],
+        "max_peak_torque_nm": null,
+        "max_rated_torque_nm": 240.0,
+        "sample_lead_time": "机械臂/关节样品2-4周",
+        "batch_lead_time": "整机配套批量6-10周，单独关节供货待确认",
+        "moq": "样品1套，外供批量需专项确认",
+        "confidence": "medium",
+        "search_text": "睿尔曼 S004 机器人本体与轻量化关节集成路线，强调协作机械臂关节、控制器和整机算法协同；可提供关节级方案但更偏整机应用。 机械臂整机验证、关节控制和应用软件协同能力较强；作为纯零部件供应商的开放程度待确认。 100-200 是 接口适配2-4周；关节/控制深度定制2-5个月 睿尔曼 S004 1000-3000套机器人关节/整机配套件 1条整机装配线，1条关节装调线，若干测试工位 关节标定台、机械臂整机测试平台、减速器装配工装 测试数据：单批300台机械臂配套关节 更适合整机配套交付，开放零部件供货产能需确认 睿尔曼 S004 ISO9001，医疗/协作机器人相关认证待确认 关节零位、重复定位、噪声、温升、整机连续运行 1%-2% 整机SN+关节SN绑定，维修记录可追踪 机械臂标定平台、重复定位测试设备、老化架 睿尔曼 S004 机械臂/关节样品2-4周 整机配套批量6-10周，单独关节供货待确认 整机项目优先级、关节标定和客户接口适配 核心关节为整机备料，外供库存有限 应用工程师支持，重大客户可现场联调 82%-90% 睿尔曼 S004 关节/机械臂方案按项目报价，单关节估算3000-10000元 样品1套，外供批量需专项确认 预付50%，验收后尾款；重点客户可议 12个月 接口和控制适配通常收费，5-30万元 0.8 睿尔曼智能 睿尔曼-产品画册.pdf 动力关节 WHJ 精密装配、抛光打磨、协作防碰、柔性抓取、各类机器人 WHJ 力矩系列 WHJ10-B 24/48V 63W 10Nm 1.3A (48V) 75RPM (48V) 455g 50*73mm 4mm 80 0~50℃ 16bits 18bits 插销式制动 CANFD WHJ10-N 24/48V 63W 10Nm 1.3A (48V) 75RPM (48V) 455g 50*64mm 4mm 80 0~50℃ 16bits 18bits 软抱闸 CANFD WHJ03 24/48V 20W 3Nm 0.4A (48V) 60RPM (48V) 170g 33*48mm 4mm 100 0~50℃ 16bits 18bits 软抱闸 CANFD WHJ30 24/48V 137W 30Nm 2.8A (48V) 75RPM (48V) 750g 60*86.5mm 9mm 80 0~50℃ 16bits 18bits 插销式制动 CANFD WHJ60 24/48V 264W 60Nm 5.3A (48V) 60RPM (48V) 1040g 70*91mm 9mm 100 0~50℃ 16bits 18bits 插销式制动 CANFD WHJ120 48V 857W 120Nm 17.8A 30RPM 2300g 88*109mm 16mm 100 0~50℃ 16bits 18bits 电磁抱闸 CANFD WHJ10力矩版 24V 90W 10Nm 4A 37.5RPM 489g 50*78mm 8mm 80 0~50℃ 16bits 18bits 软抱闸 CANFD WHJ30力矩版 24V 256W 30Nm 11A 37.5RPM 820g 60*101mm 7mm 80 0~50℃ 16bits 18bits 插销式制动 CANFD WHJ60力矩版 24V 336W 60Nm 14A 30RPM 1121g 70*106mm 9mm 100 0~50℃ 16bits 18bits 插销式制动 CANFD 高性能机器人关节 WHG 工业自动化、协作机器人、人形机器人、半导体、精密设备 WHG 系列 WHG1410 24/48V 73W 10Nm 1.5A 75RPM 800g 70*69mm 9mm 100 0~50℃ 16bits 18bits 电磁抱闸 CANFD WHG1730 24/48V 155W 30Nm 3A 75RPM 1308g 80*80mm 9mm 100 0~50℃ 16bits 18bits 电磁抱闸 CANFD WHG2060 24/48V 287W 60Nm 6A 60RPM 1770g 90*92mm 9mm 100 0~50℃ 16bits 18bits 电磁抱闸 CANFD WHG25120 24/48V 611W 120Nm 13A 45RPM 2816g 110*103mm 16mm 100 0~50℃ 16bits 18bits 电磁抱闸 CANFD WHG32240 24/48V 873W 240Nm 18A 27RPM 5773g 142*127mm 18mm 100 0~50℃ 16bits 18bits 电磁抱闸 CANFD 仿人机械臂 RM 新零售、新餐饮、生活服务、大健康、展会展览 RM 系列 RM65-标准版 DC 24V ≤150W 6 610mm 5kg 7.2kg ±0.05mm ≤1.8m/s ≤900W φ107mm 0-45℃ 1~3关节硬抱闸; 4~6关节软抱闸 仿人构型 RM65-六维力版 DC 24V ≤150W 6 627mm 5kg 7.3kg ±0.05mm ≤1.8m/s ≤900W φ107mm 0-45℃ 1~3关节硬抱闸; 4~6关节软抱闸 200N/7Nm ±0.5%FS 仿人构型 RM75-标准版 DC 24V ≤200W 7 610mm 5kg 7.8kg ±0.05mm ≤1.8m/s ≤1000W φ107mm 0-45℃ 1~4关节硬抱闸; 5~7关节软抱闸 仿人构型 RM75-六维力版 DC 24V ≤200W 7 627mm 5kg 7.9kg ±0.05mm ≤1.8m/s ≤1000W φ107mm 0-45℃ 1~4关节硬抱闸; 5~7关节软抱闸 200N/7Nm ±0.5%FS 仿人构型 长臂仿人机械臂 RML 新零售、新餐饮、生活服务、大健康、展会展览 RML 系列 RML63-标准版 DC 24V ≤150W 6 900mm 3kg 10kg ±0.05mm ≤2.8m/s ≤900W φ107mm 0-45℃ 1~4关节硬抱闸; 5~6关节软抱闸 仿人构型 RML63-六维力版 DC 24V ≤150W 6 917mm 3kg 10.1kg ±0.05mm ≤2.8m/s ≤900W φ107mm 0-45℃ 1~4关节硬抱闸; 5~6关节软抱闸 200N/7Nm ±0.5%FS 仿人构型 协作机械臂 ECO 新零售、工业产线、按摩理疗、咖啡机器人、医疗 ECO 系列 ECO65-标准版 DC 24V ≤150W 6 610mm 5kg 7.8kg ±0.05mm ≤1.8m/s ≤900W φ107mm 0-45℃ 1~6关节硬抱闸 协作臂构型 ECO65-六维力版 DC 24V ≤150W 6 627mm 5kg 7.9kg ±0.05mm ≤1.8m/s ≤900W φ107mm 0-45℃ 1~6关节硬抱闸 200N/7Nm ±0.5%FS 协作臂构型 ECO63-标准版 DC 24V ≤150W 6 900mm 3kg 9.5kg ±0.05mm ≤2.8m/s ≤900W φ107mm 0-45℃ 1~6关节硬抱闸 协作臂构型 ECO63-六维力版 DC 24V ≤150W 6 917mm 3kg 9.6kg ±0.05mm ≤2.8m/s ≤900W φ107mm 0-45℃ 1~6关节硬抱闸 200N/7Nm ±0.5%FS 协作臂构型 ECO62-标准版 DC 24V ≤100W 6 355mm 1kg 3.3kg ±0.1mm <1.3m/s ≤250W φ107mm 0-50℃ 1~6关节硬抱闸 协作臂构型 仿人双臂机器人手臂 RX 零售、餐饮、工业、仓储、医疗等场景下的人形机器人 RX 系列 RX75-标准版 DC20~30V ≤200W 7 709mm 5kg 8.2kg ±0.2mm ≤2.2m/s 0-45℃ 1~4关节硬抱闸; 5~7关节软抱闸 200N/7Nm 0.5%FS 仿人构型 RX75-视觉版 DC20~30V ≤200W 7 732mm 5kg 8.4kg ±0.2mm ≤2.2m/s 0-45℃ 1~4关节硬抱闸; 5~7关节软抱闸 200N/7Nm 0.5%FS D405 仿人构型"
+      },
+      "raw_product_extraction": {
+        "supplier_id": "M007",
+        "source_document": "睿尔曼-产品画册.pdf",
+        "supplier": {
+          "supplier_id": "M007",
+          "company_name": "睿尔曼智能",
+          "company_description": "面向具身智能时代的系统级全球化基础设施平台公司。",
+          "website": "https://www.realman-robotics.cn",
+          "contact_phone": "400-898-2018",
+          "technical_advantages": "MTBF 50000H; ROHS/Reach"
+        },
+        "product_series": [
+          {
+            "series_name": "WHJ",
+            "series_category": "动力关节",
+            "notes": "WHJ 力矩系列",
+            "application_scenarios": "精密装配、抛光打磨、协作防碰、柔性抓取、各类机器人",
+            "customization_options": "",
+            "models": [
+              {
+                "model": "WHJ10-B",
+                "key_parameters": {
+                  "rated_voltage": "24/48V",
+                  "rated_power": "63W",
+                  "rated_torque": "10Nm",
+                  "rated_current": "1.3A (48V)",
+                  "max_speed": "75RPM (48V)",
+                  "extra_parameters": {
+                    "weight": "455g",
+                    "dimensions": "50*73mm",
+                    "hollow_diameter": "4mm",
+                    "reduction_ratio": "80",
+                    "operating_temperature": "0~50℃",
+                    "incremental_encoder": "16bits",
+                    "absolute_position_encoder": "18bits",
+                    "brake_type": "插销式制动",
+                    "communication_interface": "CANFD"
+                  }
+                }
+              },
+              {
+                "model": "WHJ10-N",
+                "key_parameters": {
+                  "rated_voltage": "24/48V",
+                  "rated_power": "63W",
+                  "rated_torque": "10Nm",
+                  "rated_current": "1.3A (48V)",
+                  "max_speed": "75RPM (48V)",
+                  "extra_parameters": {
+                    "weight": "455g",
+                    "dimensions": "50*64mm",
+                    "hollow_diameter": "4mm",
+                    "reduction_ratio": "80",
+                    "operating_temperature": "0~50℃",
+                    "incremental_encoder": "16bits",
+                    "absolute_position_encoder": "18bits",
+                    "brake_type": "软抱闸",
+                    "communication_interface": "CANFD"
+                  }
+                }
+              },
+              {
+                "model": "WHJ03",
+                "key_parameters": {
+                  "rated_voltage": "24/48V",
+                  "rated_power": "20W",
+                  "rated_torque": "3Nm",
+                  "rated_current": "0.4A (48V)",
+                  "max_speed": "60RPM (48V)",
+                  "extra_parameters": {
+                    "weight": "170g",
+                    "dimensions": "33*48mm",
+                    "hollow_diameter": "4mm",
+                    "reduction_ratio": "100",
+                    "operating_temperature": "0~50℃",
+                    "incremental_encoder": "16bits",
+                    "absolute_position_encoder": "18bits",
+                    "brake_type": "软抱闸",
+                    "communication_interface": "CANFD"
+                  }
+                }
+              },
+              {
+                "model": "WHJ30",
+                "key_parameters": {
+                  "rated_voltage": "24/48V",
+                  "rated_power": "137W",
+                  "rated_torque": "30Nm",
+                  "rated_current": "2.8A (48V)",
+                  "max_speed": "75RPM (48V)",
+                  "extra_parameters": {
+                    "weight": "750g",
+                    "dimensions": "60*86.5mm",
+                    "hollow_diameter": "9mm",
+                    "reduction_ratio": "80",
+                    "operating_temperature": "0~50℃",
+                    "incremental_encoder": "16bits",
+                    "absolute_position_encoder": "18bits",
+                    "brake_type": "插销式制动",
+                    "communication_interface": "CANFD"
+                  }
+                }
+              },
+              {
+                "model": "WHJ60",
+                "key_parameters": {
+                  "rated_voltage": "24/48V",
+                  "rated_power": "264W",
+                  "rated_torque": "60Nm",
+                  "rated_current": "5.3A (48V)",
+                  "max_speed": "60RPM (48V)",
+                  "extra_parameters": {
+                    "weight": "1040g",
+                    "dimensions": "70*91mm",
+                    "hollow_diameter": "9mm",
+                    "reduction_ratio": "100",
+                    "operating_temperature": "0~50℃",
+                    "incremental_encoder": "16bits",
+                    "absolute_position_encoder": "18bits",
+                    "brake_type": "插销式制动",
+                    "communication_interface": "CANFD"
+                  }
+                }
+              },
+              {
+                "model": "WHJ120",
+                "key_parameters": {
+                  "rated_voltage": "48V",
+                  "rated_power": "857W",
+                  "rated_torque": "120Nm",
+                  "rated_current": "17.8A",
+                  "max_speed": "30RPM",
+                  "extra_parameters": {
+                    "weight": "2300g",
+                    "dimensions": "88*109mm",
+                    "hollow_diameter": "16mm",
+                    "reduction_ratio": "100",
+                    "operating_temperature": "0~50℃",
+                    "incremental_encoder": "16bits",
+                    "absolute_position_encoder": "18bits",
+                    "brake_type": "电磁抱闸",
+                    "communication_interface": "CANFD"
+                  }
+                }
+              },
+              {
+                "model": "WHJ10力矩版",
+                "key_parameters": {
+                  "rated_voltage": "24V",
+                  "rated_power": "90W",
+                  "rated_torque": "10Nm",
+                  "rated_current": "4A",
+                  "max_speed": "37.5RPM",
+                  "extra_parameters": {
+                    "weight": "489g",
+                    "dimensions": "50*78mm",
+                    "hollow_diameter": "8mm",
+                    "reduction_ratio": "80",
+                    "operating_temperature": "0~50℃",
+                    "incremental_encoder": "16bits",
+                    "absolute_position_encoder": "18bits",
+                    "brake_type": "软抱闸",
+                    "communication_interface": "CANFD"
+                  }
+                }
+              },
+              {
+                "model": "WHJ30力矩版",
+                "key_parameters": {
+                  "rated_voltage": "24V",
+                  "rated_power": "256W",
+                  "rated_torque": "30Nm",
+                  "rated_current": "11A",
+                  "max_speed": "37.5RPM",
+                  "extra_parameters": {
+                    "weight": "820g",
+                    "dimensions": "60*101mm",
+                    "hollow_diameter": "7mm",
+                    "reduction_ratio": "80",
+                    "operating_temperature": "0~50℃",
+                    "incremental_encoder": "16bits",
+                    "absolute_position_encoder": "18bits",
+                    "brake_type": "插销式制动",
+                    "communication_interface": "CANFD"
+                  }
+                }
+              },
+              {
+                "model": "WHJ60力矩版",
+                "key_parameters": {
+                  "rated_voltage": "24V",
+                  "rated_power": "336W",
+                  "rated_torque": "60Nm",
+                  "rated_current": "14A",
+                  "max_speed": "30RPM",
+                  "extra_parameters": {
+                    "weight": "1121g",
+                    "dimensions": "70*106mm",
+                    "hollow_diameter": "9mm",
+                    "reduction_ratio": "100",
+                    "operating_temperature": "0~50℃",
+                    "incremental_encoder": "16bits",
+                    "absolute_position_encoder": "18bits",
+                    "brake_type": "插销式制动",
+                    "communication_interface": "CANFD"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "series_name": "WHG",
+            "series_category": "高性能机器人关节",
+            "notes": "WHG 系列",
+            "application_scenarios": "工业自动化、协作机器人、人形机器人、半导体、精密设备",
+            "customization_options": "",
+            "models": [
+              {
+                "model": "WHG1410",
+                "key_parameters": {
+                  "rated_voltage": "24/48V",
+                  "rated_power": "73W",
+                  "rated_torque": "10Nm",
+                  "rated_current": "1.5A",
+                  "max_speed": "75RPM",
+                  "extra_parameters": {
+                    "weight": "800g",
+                    "dimensions": "70*69mm",
+                    "hollow_diameter": "9mm",
+                    "reduction_ratio": "100",
+                    "operating_temperature": "0~50℃",
+                    "incremental_encoder": "16bits",
+                    "absolute_position_encoder": "18bits",
+                    "brake_type": "电磁抱闸",
+                    "communication_interface": "CANFD"
+                  }
+                }
+              },
+              {
+                "model": "WHG1730",
+                "key_parameters": {
+                  "rated_voltage": "24/48V",
+                  "rated_power": "155W",
+                  "rated_torque": "30Nm",
+                  "rated_current": "3A",
+                  "max_speed": "75RPM",
+                  "extra_parameters": {
+                    "weight": "1308g",
+                    "dimensions": "80*80mm",
+                    "hollow_diameter": "9mm",
+                    "reduction_ratio": "100",
+                    "operating_temperature": "0~50℃",
+                    "incremental_encoder": "16bits",
+                    "absolute_position_encoder": "18bits",
+                    "brake_type": "电磁抱闸",
+                    "communication_interface": "CANFD"
+                  }
+                }
+              },
+              {
+                "model": "WHG2060",
+                "key_parameters": {
+                  "rated_voltage": "24/48V",
+                  "rated_power": "287W",
+                  "rated_torque": "60Nm",
+                  "rated_current": "6A",
+                  "max_speed": "60RPM",
+                  "extra_parameters": {
+                    "weight": "1770g",
+                    "dimensions": "90*92mm",
+                    "hollow_diameter": "9mm",
+                    "reduction_ratio": "100",
+                    "operating_temperature": "0~50℃",
+                    "incremental_encoder": "16bits",
+                    "absolute_position_encoder": "18bits",
+                    "brake_type": "电磁抱闸",
+                    "communication_interface": "CANFD"
+                  }
+                }
+              },
+              {
+                "model": "WHG25120",
+                "key_parameters": {
+                  "rated_voltage": "24/48V",
+                  "rated_power": "611W",
+                  "rated_torque": "120Nm",
+                  "rated_current": "13A",
+                  "max_speed": "45RPM",
+                  "extra_parameters": {
+                    "weight": "2816g",
+                    "dimensions": "110*103mm",
+                    "hollow_diameter": "16mm",
+                    "reduction_ratio": "100",
+                    "operating_temperature": "0~50℃",
+                    "incremental_encoder": "16bits",
+                    "absolute_position_encoder": "18bits",
+                    "brake_type": "电磁抱闸",
+                    "communication_interface": "CANFD"
+                  }
+                }
+              },
+              {
+                "model": "WHG32240",
+                "key_parameters": {
+                  "rated_voltage": "24/48V",
+                  "rated_power": "873W",
+                  "rated_torque": "240Nm",
+                  "rated_current": "18A",
+                  "max_speed": "27RPM",
+                  "extra_parameters": {
+                    "weight": "5773g",
+                    "dimensions": "142*127mm",
+                    "hollow_diameter": "18mm",
+                    "reduction_ratio": "100",
+                    "operating_temperature": "0~50℃",
+                    "incremental_encoder": "16bits",
+                    "absolute_position_encoder": "18bits",
+                    "brake_type": "电磁抱闸",
+                    "communication_interface": "CANFD"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "series_name": "RM",
+            "series_category": "仿人机械臂",
+            "notes": "RM 系列",
+            "application_scenarios": "新零售、新餐饮、生活服务、大健康、展会展览",
+            "customization_options": "",
+            "models": [
+              {
+                "model": "RM65-标准版",
+                "key_parameters": {
+                  "rated_voltage": "DC 24V",
+                  "rated_power": "≤150W",
+                  "extra_parameters": {
+                    "degrees_of_freedom": "6",
+                    "working_radius": "610mm",
+                    "payload": "5kg",
+                    "weight": "7.2kg",
+                    "repeatability": "±0.05mm",
+                    "tcp_speed": "≤1.8m/s",
+                    "peak_power": "≤900W",
+                    "base_size": "φ107mm",
+                    "operating_temperature": "0-45℃",
+                    "joint_brake_type": "1~3关节硬抱闸; 4~6关节软抱闸",
+                    "configuration": "仿人构型"
+                  }
+                }
+              },
+              {
+                "model": "RM65-六维力版",
+                "key_parameters": {
+                  "rated_voltage": "DC 24V",
+                  "rated_power": "≤150W",
+                  "extra_parameters": {
+                    "degrees_of_freedom": "6",
+                    "working_radius": "627mm",
+                    "payload": "5kg",
+                    "weight": "7.3kg",
+                    "repeatability": "±0.05mm",
+                    "tcp_speed": "≤1.8m/s",
+                    "peak_power": "≤900W",
+                    "base_size": "φ107mm",
+                    "operating_temperature": "0-45℃",
+                    "joint_brake_type": "1~3关节硬抱闸; 4~6关节软抱闸",
+                    "force_range": "200N/7Nm",
+                    "force_accuracy": "±0.5%FS",
+                    "configuration": "仿人构型"
+                  }
+                }
+              },
+              {
+                "model": "RM75-标准版",
+                "key_parameters": {
+                  "rated_voltage": "DC 24V",
+                  "rated_power": "≤200W",
+                  "extra_parameters": {
+                    "degrees_of_freedom": "7",
+                    "working_radius": "610mm",
+                    "payload": "5kg",
+                    "weight": "7.8kg",
+                    "repeatability": "±0.05mm",
+                    "tcp_speed": "≤1.8m/s",
+                    "peak_power": "≤1000W",
+                    "base_size": "φ107mm",
+                    "operating_temperature": "0-45℃",
+                    "joint_brake_type": "1~4关节硬抱闸; 5~7关节软抱闸",
+                    "configuration": "仿人构型"
+                  }
+                }
+              },
+              {
+                "model": "RM75-六维力版",
+                "key_parameters": {
+                  "rated_voltage": "DC 24V",
+                  "rated_power": "≤200W",
+                  "extra_parameters": {
+                    "degrees_of_freedom": "7",
+                    "working_radius": "627mm",
+                    "payload": "5kg",
+                    "weight": "7.9kg",
+                    "repeatability": "±0.05mm",
+                    "tcp_speed": "≤1.8m/s",
+                    "peak_power": "≤1000W",
+                    "base_size": "φ107mm",
+                    "operating_temperature": "0-45℃",
+                    "joint_brake_type": "1~4关节硬抱闸; 5~7关节软抱闸",
+                    "force_range": "200N/7Nm",
+                    "force_accuracy": "±0.5%FS",
+                    "configuration": "仿人构型"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "series_name": "RML",
+            "series_category": "长臂仿人机械臂",
+            "notes": "RML 系列",
+            "application_scenarios": "新零售、新餐饮、生活服务、大健康、展会展览",
+            "customization_options": "",
+            "models": [
+              {
+                "model": "RML63-标准版",
+                "key_parameters": {
+                  "rated_voltage": "DC 24V",
+                  "rated_power": "≤150W",
+                  "extra_parameters": {
+                    "degrees_of_freedom": "6",
+                    "working_radius": "900mm",
+                    "payload": "3kg",
+                    "weight": "10kg",
+                    "repeatability": "±0.05mm",
+                    "tcp_speed": "≤2.8m/s",
+                    "peak_power": "≤900W",
+                    "base_size": "φ107mm",
+                    "operating_temperature": "0-45℃",
+                    "joint_brake_type": "1~4关节硬抱闸; 5~6关节软抱闸",
+                    "configuration": "仿人构型"
+                  }
+                }
+              },
+              {
+                "model": "RML63-六维力版",
+                "key_parameters": {
+                  "rated_voltage": "DC 24V",
+                  "rated_power": "≤150W",
+                  "extra_parameters": {
+                    "degrees_of_freedom": "6",
+                    "working_radius": "917mm",
+                    "payload": "3kg",
+                    "weight": "10.1kg",
+                    "repeatability": "±0.05mm",
+                    "tcp_speed": "≤2.8m/s",
+                    "peak_power": "≤900W",
+                    "base_size": "φ107mm",
+                    "operating_temperature": "0-45℃",
+                    "joint_brake_type": "1~4关节硬抱闸; 5~6关节软抱闸",
+                    "force_range": "200N/7Nm",
+                    "force_accuracy": "±0.5%FS",
+                    "configuration": "仿人构型"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "series_name": "ECO",
+            "series_category": "协作机械臂",
+            "notes": "ECO 系列",
+            "application_scenarios": "新零售、工业产线、按摩理疗、咖啡机器人、医疗",
+            "customization_options": "",
+            "models": [
+              {
+                "model": "ECO65-标准版",
+                "key_parameters": {
+                  "rated_voltage": "DC 24V",
+                  "rated_power": "≤150W",
+                  "extra_parameters": {
+                    "degrees_of_freedom": "6",
+                    "working_radius": "610mm",
+                    "payload": "5kg",
+                    "weight": "7.8kg",
+                    "repeatability": "±0.05mm",
+                    "tcp_speed": "≤1.8m/s",
+                    "peak_power": "≤900W",
+                    "base_size": "φ107mm",
+                    "operating_temperature": "0-45℃",
+                    "joint_brake_type": "1~6关节硬抱闸",
+                    "configuration": "协作臂构型"
+                  }
+                }
+              },
+              {
+                "model": "ECO65-六维力版",
+                "key_parameters": {
+                  "rated_voltage": "DC 24V",
+                  "rated_power": "≤150W",
+                  "extra_parameters": {
+                    "degrees_of_freedom": "6",
+                    "working_radius": "627mm",
+                    "payload": "5kg",
+                    "weight": "7.9kg",
+                    "repeatability": "±0.05mm",
+                    "tcp_speed": "≤1.8m/s",
+                    "peak_power": "≤900W",
+                    "base_size": "φ107mm",
+                    "operating_temperature": "0-45℃",
+                    "joint_brake_type": "1~6关节硬抱闸",
+                    "force_range": "200N/7Nm",
+                    "force_accuracy": "±0.5%FS",
+                    "configuration": "协作臂构型"
+                  }
+                }
+              },
+              {
+                "model": "ECO63-标准版",
+                "key_parameters": {
+                  "rated_voltage": "DC 24V",
+                  "rated_power": "≤150W",
+                  "extra_parameters": {
+                    "degrees_of_freedom": "6",
+                    "working_radius": "900mm",
+                    "payload": "3kg",
+                    "weight": "9.5kg",
+                    "repeatability": "±0.05mm",
+                    "tcp_speed": "≤2.8m/s",
+                    "peak_power": "≤900W",
+                    "base_size": "φ107mm",
+                    "operating_temperature": "0-45℃",
+                    "joint_brake_type": "1~6关节硬抱闸",
+                    "configuration": "协作臂构型"
+                  }
+                }
+              },
+              {
+                "model": "ECO63-六维力版",
+                "key_parameters": {
+                  "rated_voltage": "DC 24V",
+                  "rated_power": "≤150W",
+                  "extra_parameters": {
+                    "degrees_of_freedom": "6",
+                    "working_radius": "917mm",
+                    "payload": "3kg",
+                    "weight": "9.6kg",
+                    "repeatability": "±0.05mm",
+                    "tcp_speed": "≤2.8m/s",
+                    "peak_power": "≤900W",
+                    "base_size": "φ107mm",
+                    "operating_temperature": "0-45℃",
+                    "joint_brake_type": "1~6关节硬抱闸",
+                    "force_range": "200N/7Nm",
+                    "force_accuracy": "±0.5%FS",
+                    "configuration": "协作臂构型"
+                  }
+                }
+              },
+              {
+                "model": "ECO62-标准版",
+                "key_parameters": {
+                  "rated_voltage": "DC 24V",
+                  "rated_power": "≤100W",
+                  "extra_parameters": {
+                    "degrees_of_freedom": "6",
+                    "working_radius": "355mm",
+                    "payload": "1kg",
+                    "weight": "3.3kg",
+                    "repeatability": "±0.1mm",
+                    "tcp_speed": "<1.3m/s",
+                    "peak_power": "≤250W",
+                    "base_size": "φ107mm",
+                    "operating_temperature": "0-50℃",
+                    "joint_brake_type": "1~6关节硬抱闸",
+                    "configuration": "协作臂构型"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "series_name": "RX",
+            "series_category": "仿人双臂机器人手臂",
+            "notes": "RX 系列",
+            "application_scenarios": "零售、餐饮、工业、仓储、医疗等场景下的人形机器人",
+            "customization_options": "",
+            "models": [
+              {
+                "model": "RX75-标准版",
+                "key_parameters": {
+                  "rated_voltage": "DC20~30V",
+                  "rated_power": "≤200W",
+                  "extra_parameters": {
+                    "degrees_of_freedom": "7",
+                    "working_radius": "709mm",
+                    "payload": "5kg",
+                    "weight": "8.2kg",
+                    "repeatability": "±0.2mm",
+                    "tcp_speed": "≤2.2m/s",
+                    "operating_temperature": "0-45℃",
+                    "joint_brake_type": "1~4关节硬抱闸; 5~7关节软抱闸",
+                    "force_range": "200N/7Nm",
+                    "force_accuracy": "0.5%FS",
+                    "configuration": "仿人构型"
+                  }
+                }
+              },
+              {
+                "model": "RX75-视觉版",
+                "key_parameters": {
+                  "rated_voltage": "DC20~30V",
+                  "rated_power": "≤200W",
+                  "extra_parameters": {
+                    "degrees_of_freedom": "7",
+                    "working_radius": "732mm",
+                    "payload": "5kg",
+                    "weight": "8.4kg",
+                    "repeatability": "±0.2mm",
+                    "tcp_speed": "≤2.2m/s",
+                    "operating_temperature": "0-45℃",
+                    "joint_brake_type": "1~4关节硬抱闸; 5~7关节软抱闸",
+                    "force_range": "200N/7Nm",
+                    "force_accuracy": "0.5%FS",
+                    "terminal_camera": "D405",
+                    "configuration": "仿人构型"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "supplier_id": "S005",
+      "source_supplier_id": "M011",
+      "short_name": "大族",
+      "technology": {
+        "short_name": "大族",
+        "supplier_id": "S005",
+        "technology_route": "工业自动化装备+运动控制部件集成路线，偏伺服系统、精密加工和自动化产线配套；机器人关节模组能力需按事业线确认。",
+        "competitive_moat": "精密装备、加工工艺和自动化集成能力强；机器人零部件产品线覆盖度不稳定，需确认具体型号。",
+        "rd_team_size_range": "500以上",
+        "customization_supported": "有限支持",
+        "customization_lead_time": "标准方案2-4周；跨事业部定制4-8个月"
+      },
+      "manufacturing": {
+        "short_name": "大族",
+        "supplier_id": "S005",
+        "monthly_capacity": "5000-10000套运动部件/装备配套件",
+        "production_line_count": "多条自动化装备装配线，机器人部件线待确认",
+        "key_equipment": "CNC、激光加工设备、自动化装配工位、综合电测设备",
+        "max_historical_order": "测试数据：单批2000套自动化装备执行单元",
+        "notes": "跨产品线资源多，但关节模组专线成熟度待确认"
+      },
+      "quality": {
+        "short_name": "大族",
+        "supplier_id": "S005",
+        "quality_certifications": "ISO9001、ISO14001，具体部件认证待确认",
+        "outgoing_inspection_items": "电性能、装配精度、空载运行、整机联调抽检",
+        "defect_rate": "0.8%-1.8%",
+        "traceability_method": "ERP/MES批次追溯，跨事业部数据完整性待确认",
+        "inspection_equipment": "三坐标、综合电测、环境试验设备"
+      },
+      "delivery": {
+        "short_name": "大族",
+        "supplier_id": "S005",
+        "sample_lead_time": "标准自动化部件2-3周",
+        "batch_lead_time": "批量4-8周，跨线定制8-12周",
+        "common_delay_reasons": "事业部协调、非标加工、项目制排产",
+        "inventory_strategy": "标准部件有库存，机器人专项件按项目备料",
+        "after_sales_response": "售后网络较广，机器人部件需对接专线",
+        "on_time_delivery_rate": "85%-92%"
+      },
+      "business": {
+        "short_name": "大族",
+        "supplier_id": "S005",
+        "price_range": "运动部件/装备模块按项目报价，估算2000-20000元",
+        "moq": "项目制，通常10套起",
+        "payment_method": "合同节点付款，预付30%-50%",
+        "warranty_period": "12个月",
+        "customization_fee": "非标设计费按项目收取",
+        "robot_business_share": 0.2
+      },
+      "evidence": [
+        {
+          "short_name": "大族",
+          "evidence_id": "EVD_S005_01",
+          "supplier_id": "S005",
+          "source_type": "官网",
+          "covered_fields": "technology_route,competitive_moat,rd_team_size_range,customization_supported,customization_lead_time",
+          "source_confidence": "中"
+        },
+        {
+          "short_name": "大族",
+          "evidence_id": "EVD_S005_02",
+          "supplier_id": "S005",
+          "source_type": "官网",
+          "covered_fields": "monthly_capacity,production_line_count,key_equipment,max_historical_order,notes",
+          "source_confidence": "中"
+        },
+        {
+          "short_name": "大族",
+          "evidence_id": "EVD_S005_03",
+          "supplier_id": "S005",
+          "source_type": "认证文件",
+          "covered_fields": "quality_certifications,outgoing_inspection_items,defect_rate,traceability_method,inspection_equipment",
+          "source_confidence": "高"
+        },
+        {
+          "short_name": "大族",
+          "evidence_id": "EVD_S005_04",
+          "supplier_id": "S005",
+          "source_type": "报价单",
+          "covered_fields": "sample_lead_time,batch_lead_time,common_delay_reasons,inventory_strategy,after_sales_response,on_time_delivery_rate",
+          "source_confidence": "中"
+        },
+        {
+          "short_name": "大族",
+          "evidence_id": "EVD_S005_05",
+          "supplier_id": "S005",
+          "source_type": "报价单",
+          "covered_fields": "price_range,moq,payment_method,warranty_period,customization_fee,robot_business_share",
+          "source_confidence": "中"
+        }
+      ],
+      "products": {
+        "source_document": "关节模组-大族（华沿）.pdf",
+        "product_categories": [
+          "关节模组"
+        ],
+        "product_series": [
+          "人形关节模组"
+        ],
+        "model_count": 5,
+        "sample_models": [
+          "规格14",
+          "规格17",
+          "规格20",
+          "规格25",
+          "规格32"
+        ],
+        "voltage_platforms": [
+          "DC48V"
+        ],
+        "max_peak_torque_nm": 459.0,
+        "max_rated_torque_nm": 281.0,
+        "max_speed_rpm": 29.5,
+        "search_text": "广东华沿机器人股份有限公司 关节模组-大族（华沿）.pdf 关节模组 人形关节模组 协作机器人、人形机器人、医疗机器人、工业自动化、外骨骼、服务机器人、特种机器人 力矩传感器选配 技术参数来自《关节模组-大族（华沿）》第 2 页表格。 规格14 DC48V 14Nm 2A 36Nm 6A 29.5rpm 62mm 75mm 9mm 0.685kg 100 ≤30arc sec 0~45℃ EtherCAT 双磁栅编码器 电磁摩擦式制动器 选配 规格17 DC48V 51Nm 4A 70Nm 12A 29.5rpm 72mm 85mm 9mm 1.07kg 100 ≤30arc sec 0~45℃ EtherCAT 双磁栅编码器 电磁摩擦式制动器 选配 规格20 DC48V 64Nm 6A 107Nm 14.5A 27.5rpm 84mm 98mm 13mm 1.72kg 100 ≤30arc sec 0~45℃ EtherCAT 双磁栅编码器 电磁摩擦式制动器 选配 规格25 DC48V 140Nm 16A 204Nm 35A 26.5rpm 100mm 109mm 16mm 2.53kg 100 ≤30arc sec 0~45℃ EtherCAT 双磁栅编码器 电磁摩擦式制动器 选配 规格32 DC48V 281Nm 22A 459Nm 65A 20rpm 132mm 132.5mm 23mm 5.5kg 120 ≤30arc sec 0~45℃ EtherCAT 双磁栅编码器 电磁摩擦式制动器 选配"
+      },
+      "search_text": "大族 S005 工业自动化装备+运动控制部件集成路线，偏伺服系统、精密加工和自动化产线配套；机器人关节模组能力需按事业线确认。 精密装备、加工工艺和自动化集成能力强；机器人零部件产品线覆盖度不稳定，需确认具体型号。 500以上 有限支持 标准方案2-4周；跨事业部定制4-8个月 大族 S005 5000-10000套运动部件/装备配套件 多条自动化装备装配线，机器人部件线待确认 CNC、激光加工设备、自动化装配工位、综合电测设备 测试数据：单批2000套自动化装备执行单元 跨产品线资源多，但关节模组专线成熟度待确认 大族 S005 ISO9001、ISO14001，具体部件认证待确认 电性能、装配精度、空载运行、整机联调抽检 0.8%-1.8% ERP/MES批次追溯，跨事业部数据完整性待确认 三坐标、综合电测、环境试验设备 大族 S005 标准自动化部件2-3周 批量4-8周，跨线定制8-12周 事业部协调、非标加工、项目制排产 标准部件有库存，机器人专项件按项目备料 售后网络较广，机器人部件需对接专线 85%-92% 大族 S005 运动部件/装备模块按项目报价，估算2000-20000元 项目制，通常10套起 合同节点付款，预付30%-50% 12个月 非标设计费按项目收取 0.2 广东华沿机器人股份有限公司 关节模组-大族（华沿）.pdf 关节模组 人形关节模组 协作机器人、人形机器人、医疗机器人、工业自动化、外骨骼、服务机器人、特种机器人 力矩传感器选配 技术参数来自《关节模组-大族（华沿）》第 2 页表格。 规格14 DC48V 14Nm 2A 36Nm 6A 29.5rpm 62mm 75mm 9mm 0.685kg 100 ≤30arc sec 0~45℃ EtherCAT 双磁栅编码器 电磁摩擦式制动器 选配 规格17 DC48V 51Nm 4A 70Nm 12A 29.5rpm 72mm 85mm 9mm 1.07kg 100 ≤30arc sec 0~45℃ EtherCAT 双磁栅编码器 电磁摩擦式制动器 选配 规格20 DC48V 64Nm 6A 107Nm 14.5A 27.5rpm 84mm 98mm 13mm 1.72kg 100 ≤30arc sec 0~45℃ EtherCAT 双磁栅编码器 电磁摩擦式制动器 选配 规格25 DC48V 140Nm 16A 204Nm 35A 26.5rpm 100mm 109mm 16mm 2.53kg 100 ≤30arc sec 0~45℃ EtherCAT 双磁栅编码器 电磁摩擦式制动器 选配 规格32 DC48V 281Nm 22A 459Nm 65A 20rpm 132mm 132.5mm 23mm 5.5kg 120 ≤30arc sec 0~45℃ EtherCAT 双磁栅编码器 电磁摩擦式制动器 选配",
+      "compact_index": {
+        "supplier_id": "S005",
+        "source_supplier_id": "M011",
+        "name": "大族",
+        "technology_route": "工业自动化装备+运动控制部件集成路线，偏伺服系统、精密加工和自动化产线配套；机器人关节模组能力需按事业线确认。",
+        "customization_supported": "有限支持",
+        "product_categories": [
+          "关节模组"
+        ],
+        "product_series": [
+          "人形关节模组"
+        ],
+        "model_count": 5,
+        "voltage_platforms": [
+          "DC48V"
+        ],
+        "max_peak_torque_nm": 459.0,
+        "max_rated_torque_nm": 281.0,
+        "sample_lead_time": "标准自动化部件2-3周",
+        "batch_lead_time": "批量4-8周，跨线定制8-12周",
+        "moq": "项目制，通常10套起",
+        "confidence": "medium",
+        "search_text": "大族 S005 工业自动化装备+运动控制部件集成路线，偏伺服系统、精密加工和自动化产线配套；机器人关节模组能力需按事业线确认。 精密装备、加工工艺和自动化集成能力强；机器人零部件产品线覆盖度不稳定，需确认具体型号。 500以上 有限支持 标准方案2-4周；跨事业部定制4-8个月 大族 S005 5000-10000套运动部件/装备配套件 多条自动化装备装配线，机器人部件线待确认 CNC、激光加工设备、自动化装配工位、综合电测设备 测试数据：单批2000套自动化装备执行单元 跨产品线资源多，但关节模组专线成熟度待确认 大族 S005 ISO9001、ISO14001，具体部件认证待确认 电性能、装配精度、空载运行、整机联调抽检 0.8%-1.8% ERP/MES批次追溯，跨事业部数据完整性待确认 三坐标、综合电测、环境试验设备 大族 S005 标准自动化部件2-3周 批量4-8周，跨线定制8-12周 事业部协调、非标加工、项目制排产 标准部件有库存，机器人专项件按项目备料 售后网络较广，机器人部件需对接专线 85%-92% 大族 S005 运动部件/装备模块按项目报价，估算2000-20000元 项目制，通常10套起 合同节点付款，预付30%-50% 12个月 非标设计费按项目收取 0.2 广东华沿机器人股份有限公司 关节模组-大族（华沿）.pdf 关节模组 人形关节模组 协作机器人、人形机器人、医疗机器人、工业自动化、外骨骼、服务机器人、特种机器人 力矩传感器选配 技术参数来自《关节模组-大族（华沿）》第 2 页表格。 规格14 DC48V 14Nm 2A 36Nm 6A 29.5rpm 62mm 75mm 9mm 0.685kg 100 ≤30arc sec 0~45℃ EtherCAT 双磁栅编码器 电磁摩擦式制动器 选配 规格17 DC48V 51Nm 4A 70Nm 12A 29.5rpm 72mm 85mm 9mm 1.07kg 100 ≤30arc sec 0~45℃ EtherCAT 双磁栅编码器 电磁摩擦式制动器 选配 规格20 DC48V 64Nm 6A 107Nm 14.5A 27.5rpm 84mm 98mm 13mm 1.72kg 100 ≤30arc sec 0~45℃ EtherCAT 双磁栅编码器 电磁摩擦式制动器 选配 规格25 DC48V 140Nm 16A 204Nm 35A 26.5rpm 100mm 109mm 16mm 2.53kg 100 ≤30arc sec 0~45℃ EtherCAT 双磁栅编码器 电磁摩擦式制动器 选配 规格32 DC48V 281Nm 22A 459Nm 65A 20rpm 132mm 132.5mm 23mm 5.5kg 120 ≤30arc sec 0~45℃ EtherCAT 双磁栅编码器 电磁摩擦式制动器 选配"
+      },
+      "raw_product_extraction": {
+        "supplier_id": "M011",
+        "source_document": "关节模组-大族（华沿）.pdf",
+        "supplier": {
+          "supplier_id": "M011",
+          "company_name": "广东华沿机器人股份有限公司",
+          "company_description": "大族激光旗下/关联机器人核心运动部件供应商，产品面向协作机器人与人形关节模组。",
+          "website": "www.huayan-robotics.com",
+          "contact_phone": "400-852-9898"
+        },
+        "product_series": [
+          {
+            "series_name": "人形关节模组",
+            "series_category": "关节模组",
+            "notes": "技术参数来自《关节模组-大族（华沿）》第 2 页表格。",
+            "application_scenarios": "协作机器人、人形机器人、医疗机器人、工业自动化、外骨骼、服务机器人、特种机器人",
+            "customization_options": "力矩传感器选配",
+            "models": [
+              {
+                "model": "规格14",
+                "key_parameters": {
+                  "rated_voltage": "DC48V",
+                  "rated_torque": "14Nm",
+                  "rated_current": "2A",
+                  "peak_torque": "36Nm",
+                  "peak_current": "6A",
+                  "max_speed": "29.5rpm",
+                  "extra_parameters": {
+                    "outer_diameter": "62mm",
+                    "length": "75mm",
+                    "through_hole_diameter": "9mm",
+                    "weight": "0.685kg",
+                    "reduction_ratio": "100",
+                    "repeat_positioning_accuracy": "≤30arc sec",
+                    "operating_temperature": "0~45℃",
+                    "communication": "EtherCAT",
+                    "encoder": "双磁栅编码器",
+                    "brake": "电磁摩擦式制动器",
+                    "torque_sensor": "选配"
+                  }
+                }
+              },
+              {
+                "model": "规格17",
+                "key_parameters": {
+                  "rated_voltage": "DC48V",
+                  "rated_torque": "51Nm",
+                  "rated_current": "4A",
+                  "peak_torque": "70Nm",
+                  "peak_current": "12A",
+                  "max_speed": "29.5rpm",
+                  "extra_parameters": {
+                    "outer_diameter": "72mm",
+                    "length": "85mm",
+                    "through_hole_diameter": "9mm",
+                    "weight": "1.07kg",
+                    "reduction_ratio": "100",
+                    "repeat_positioning_accuracy": "≤30arc sec",
+                    "operating_temperature": "0~45℃",
+                    "communication": "EtherCAT",
+                    "encoder": "双磁栅编码器",
+                    "brake": "电磁摩擦式制动器",
+                    "torque_sensor": "选配"
+                  }
+                }
+              },
+              {
+                "model": "规格20",
+                "key_parameters": {
+                  "rated_voltage": "DC48V",
+                  "rated_torque": "64Nm",
+                  "rated_current": "6A",
+                  "peak_torque": "107Nm",
+                  "peak_current": "14.5A",
+                  "max_speed": "27.5rpm",
+                  "extra_parameters": {
+                    "outer_diameter": "84mm",
+                    "length": "98mm",
+                    "through_hole_diameter": "13mm",
+                    "weight": "1.72kg",
+                    "reduction_ratio": "100",
+                    "repeat_positioning_accuracy": "≤30arc sec",
+                    "operating_temperature": "0~45℃",
+                    "communication": "EtherCAT",
+                    "encoder": "双磁栅编码器",
+                    "brake": "电磁摩擦式制动器",
+                    "torque_sensor": "选配"
+                  }
+                }
+              },
+              {
+                "model": "规格25",
+                "key_parameters": {
+                  "rated_voltage": "DC48V",
+                  "rated_torque": "140Nm",
+                  "rated_current": "16A",
+                  "peak_torque": "204Nm",
+                  "peak_current": "35A",
+                  "max_speed": "26.5rpm",
+                  "extra_parameters": {
+                    "outer_diameter": "100mm",
+                    "length": "109mm",
+                    "through_hole_diameter": "16mm",
+                    "weight": "2.53kg",
+                    "reduction_ratio": "100",
+                    "repeat_positioning_accuracy": "≤30arc sec",
+                    "operating_temperature": "0~45℃",
+                    "communication": "EtherCAT",
+                    "encoder": "双磁栅编码器",
+                    "brake": "电磁摩擦式制动器",
+                    "torque_sensor": "选配"
+                  }
+                }
+              },
+              {
+                "model": "规格32",
+                "key_parameters": {
+                  "rated_voltage": "DC48V",
+                  "rated_torque": "281Nm",
+                  "rated_current": "22A",
+                  "peak_torque": "459Nm",
+                  "peak_current": "65A",
+                  "max_speed": "20rpm",
+                  "extra_parameters": {
+                    "outer_diameter": "132mm",
+                    "length": "132.5mm",
+                    "through_hole_diameter": "23mm",
+                    "weight": "5.5kg",
+                    "reduction_ratio": "120",
+                    "repeat_positioning_accuracy": "≤30arc sec",
+                    "operating_temperature": "0~45℃",
+                    "communication": "EtherCAT",
+                    "encoder": "双磁栅编码器",
+                    "brake": "电磁摩擦式制动器",
+                    "torque_sensor": "选配"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "supplier_id": "S006",
+      "source_supplier_id": "M013",
+      "short_name": "雷赛智能",
+      "technology": {
+        "short_name": "雷赛智能",
+        "supplier_id": "S006",
+        "technology_route": "步进/伺服电机+驱动器+运动控制器路线，适合AGV、机械臂末端和通用自动化轴；不主打一体化关节模组。",
+        "competitive_moat": "运动控制算法、驱动器产品矩阵和渠道交付成熟；人形机器人高扭矩密度关节经验需补充验证。",
+        "rd_team_size_range": "200-500",
+        "customization_supported": "是",
+        "customization_lead_time": "驱动参数适配1-2周；电机规格定制2-3个月"
+      },
+      "manufacturing": {
+        "short_name": "雷赛智能",
+        "supplier_id": "S006",
+        "monthly_capacity": "5-8万套步进/伺服电机及驱动器",
+        "production_line_count": "4条电机装配线，3条驱动器生产线，1条老化线",
+        "key_equipment": "SMT、自动绕线、驱动器老化柜、编码器测试台",
+        "max_historical_order": "测试数据：单月1万套通用伺服/步进驱动订单",
+        "notes": "标准品制造成熟，机器人关节总成能力弱"
+      },
+      "quality": {
+        "short_name": "雷赛智能",
+        "supplier_id": "S006",
+        "quality_certifications": "ISO9001、CE、RoHS",
+        "outgoing_inspection_items": "驱动器FCT、负载运行、温升、通讯、老化测试",
+        "defect_rate": "0.5%-1.2%",
+        "traceability_method": "SN码+生产批次追溯，售后换修记录可查",
+        "inspection_equipment": "驱动器测试台、老化柜、电机性能测试台"
+      },
+      "delivery": {
+        "short_name": "雷赛智能",
+        "supplier_id": "S006",
+        "sample_lead_time": "标准驱动/电机3-7天",
+        "batch_lead_time": "标准品2-4周，定制电机6-10周",
+        "common_delay_reasons": "电机定制排产、芯片/功率器件波动",
+        "inventory_strategy": "常用驱动器和电机型号有渠道库存",
+        "after_sales_response": "技术支持热线+区域工程师",
+        "on_time_delivery_rate": "90%-95%"
+      },
+      "business": {
+        "short_name": "雷赛智能",
+        "supplier_id": "S006",
+        "price_range": "步进/伺服电机驱动200-4000元",
+        "moq": "标准品1套，定制电机50套起",
+        "payment_method": "款到发货或账期客户月结",
+        "warranty_period": "12-18个月",
+        "customization_fee": "电机定制模具/开发费2-15万元",
+        "robot_business_share": 0.25
+      },
+      "evidence": [
+        {
+          "short_name": "雷赛智能",
+          "evidence_id": "EVD_S006_01",
+          "supplier_id": "S006",
+          "source_type": "产品手册",
+          "covered_fields": "technology_route,competitive_moat,rd_team_size_range,customization_supported,customization_lead_time",
+          "source_confidence": "中"
+        },
+        {
+          "short_name": "雷赛智能",
+          "evidence_id": "EVD_S006_02",
+          "supplier_id": "S006",
+          "source_type": "官网",
+          "covered_fields": "monthly_capacity,production_line_count,key_equipment,max_historical_order,notes",
+          "source_confidence": "中"
+        },
+        {
+          "short_name": "雷赛智能",
+          "evidence_id": "EVD_S006_03",
+          "supplier_id": "S006",
+          "source_type": "认证文件",
+          "covered_fields": "quality_certifications,outgoing_inspection_items,defect_rate,traceability_method,inspection_equipment",
+          "source_confidence": "高"
+        },
+        {
+          "short_name": "雷赛智能",
+          "evidence_id": "EVD_S006_04",
+          "supplier_id": "S006",
+          "source_type": "物流单",
+          "covered_fields": "sample_lead_time,batch_lead_time,common_delay_reasons,inventory_strategy,after_sales_response,on_time_delivery_rate",
+          "source_confidence": "高"
+        },
+        {
+          "short_name": "雷赛智能",
+          "evidence_id": "EVD_S006_05",
+          "supplier_id": "S006",
+          "source_type": "报价单",
+          "covered_fields": "price_range,moq,payment_method,warranty_period,customization_fee,robot_business_share",
+          "source_confidence": "中"
+        }
+      ],
+      "products": {
+        "source_document": "电机-雷赛智能-FM1高密度无框电机与驱动系统彩页.pdf",
+        "product_categories": [
+          "无框电机"
+        ],
+        "product_series": [
+          "FM1 高密度无框电机"
+        ],
+        "model_count": 17,
+        "sample_models": [
+          "FM1-02504",
+          "FM1-02508",
+          "FM1-03806",
+          "FM1-03812",
+          "FM1-05008",
+          "FM1-05014",
+          "FM1-06008",
+          "FM1-06013",
+          "FM1-06026",
+          "FM1-07010",
+          "FM1-07018",
+          "FM1-08508"
+        ],
+        "voltage_platforms": [
+          "24V",
+          "48V"
+        ],
+        "max_peak_torque_nm": 27.96,
+        "max_rated_torque_nm": 9.32,
+        "max_speed_rpm": null,
+        "search_text": "雷赛智能 电机-雷赛智能-FM1高密度无框电机与驱动系统彩页.pdf 无框电机 FM1 高密度无框电机 机器人关节、协作机器人、精密转台、医疗设备、自动化设备等高功率密度直驱场景 支持特殊定制、绕组形式、过热保护装置、反馈单元和出线形式等选项 仅提取手册第 5 页/第 6 页“03 产品规格”中的电机基本参数和机械尺寸。 FM1-02504 34W 24V 3.8A 0.03Nm 0.09Nm 10500rpm 25mm 5mm 13mm 11.6mm 7mm FM1-02508 68W 24V 4.3A 0.06Nm 0.19Nm 10500rpm 25mm 9.2mm 17.2mm 11.6mm 11mm FM1-03806 88W 24V 5.5A 0.1Nm 0.3Nm 8400rpm 38mm 7mm 14.8mm 18mm 8.1mm FM1-03812 126W 24V 6.1A 0.23Nm 0.69Nm 5250rpm 38mm 14mm 21.8mm 18mm 15.1mm FM1-05008 161W 48V 5.1A 0.29Nm 0.88Nm 5250rpm 50mm 8mm 20mm 30mm 16mm FM1-05014 202W 48V 5.3A 0.53Nm 1.59Nm 3650rpm 50mm 14mm 26mm 30mm 22mm FM1-06008 142W 48V 3.5A 0.32Nm 0.97Nm 4200rpm 60mm 8.2mm 17.7mm 30mm 14.8mm FM1-06013 215W 48V 5.3A 0.49Nm 1.47Nm 4200rpm 60mm 12.7mm 22.2mm 30mm 19.3mm FM1-06026 409W 48V 10.0A 0.93Nm 2.79Nm 4200rpm 60mm 26.3mm 35.8mm 30mm 32.8mm FM1-07010 257W 48V 6.1A 0.65Nm 1.94Nm 3800rpm 70mm 10mm 23.5mm 42mm 18mm FM1-07018 464W 48V 6.7A 1.22Nm 3.65Nm 3650rpm 70mm 18mm 32mm 42mm 27.5mm FM1-08508 283W 48V 7.4A 0.87Nm 2.62Nm 3100rpm 85mm 8mm 23mm 52mm 18mm FM1-08513 458W 48V 10.8A 1.41Nm 4.23Nm 3100rpm 85mm 13mm 27.5mm 52mm 22.5mm FM1-08523 959W 48V 11.3A 2.51Nm 7.53Nm 3650rpm 85mm 23mm 36mm 52mm 34mm FM1-08526 1086W 48V 11.5A 2.84Nm 8.53Nm 3650rpm 85mm 26mm 39mm 52mm 37mm FM1-11525 600W 48V 14.1A 3.82Nm 11.47Nm 1500rpm 115mm 25mm 39mm 74mm 32.7mm FM1-11550 634W 48V 15.1A 9.32Nm 27.96Nm 650rpm 115mm 50mm 68mm 74mm 57.7mm"
+      },
+      "search_text": "雷赛智能 S006 步进/伺服电机+驱动器+运动控制器路线，适合AGV、机械臂末端和通用自动化轴；不主打一体化关节模组。 运动控制算法、驱动器产品矩阵和渠道交付成熟；人形机器人高扭矩密度关节经验需补充验证。 200-500 是 驱动参数适配1-2周；电机规格定制2-3个月 雷赛智能 S006 5-8万套步进/伺服电机及驱动器 4条电机装配线，3条驱动器生产线，1条老化线 SMT、自动绕线、驱动器老化柜、编码器测试台 测试数据：单月1万套通用伺服/步进驱动订单 标准品制造成熟，机器人关节总成能力弱 雷赛智能 S006 ISO9001、CE、RoHS 驱动器FCT、负载运行、温升、通讯、老化测试 0.5%-1.2% SN码+生产批次追溯，售后换修记录可查 驱动器测试台、老化柜、电机性能测试台 雷赛智能 S006 标准驱动/电机3-7天 标准品2-4周，定制电机6-10周 电机定制排产、芯片/功率器件波动 常用驱动器和电机型号有渠道库存 技术支持热线+区域工程师 90%-95% 雷赛智能 S006 步进/伺服电机驱动200-4000元 标准品1套，定制电机50套起 款到发货或账期客户月结 12-18个月 电机定制模具/开发费2-15万元 0.25 雷赛智能 电机-雷赛智能-FM1高密度无框电机与驱动系统彩页.pdf 无框电机 FM1 高密度无框电机 机器人关节、协作机器人、精密转台、医疗设备、自动化设备等高功率密度直驱场景 支持特殊定制、绕组形式、过热保护装置、反馈单元和出线形式等选项 仅提取手册第 5 页/第 6 页“03 产品规格”中的电机基本参数和机械尺寸。 FM1-02504 34W 24V 3.8A 0.03Nm 0.09Nm 10500rpm 25mm 5mm 13mm 11.6mm 7mm FM1-02508 68W 24V 4.3A 0.06Nm 0.19Nm 10500rpm 25mm 9.2mm 17.2mm 11.6mm 11mm FM1-03806 88W 24V 5.5A 0.1Nm 0.3Nm 8400rpm 38mm 7mm 14.8mm 18mm 8.1mm FM1-03812 126W 24V 6.1A 0.23Nm 0.69Nm 5250rpm 38mm 14mm 21.8mm 18mm 15.1mm FM1-05008 161W 48V 5.1A 0.29Nm 0.88Nm 5250rpm 50mm 8mm 20mm 30mm 16mm FM1-05014 202W 48V 5.3A 0.53Nm 1.59Nm 3650rpm 50mm 14mm 26mm 30mm 22mm FM1-06008 142W 48V 3.5A 0.32Nm 0.97Nm 4200rpm 60mm 8.2mm 17.7mm 30mm 14.8mm FM1-06013 215W 48V 5.3A 0.49Nm 1.47Nm 4200rpm 60mm 12.7mm 22.2mm 30mm 19.3mm FM1-06026 409W 48V 10.0A 0.93Nm 2.79Nm 4200rpm 60mm 26.3mm 35.8mm 30mm 32.8mm FM1-07010 257W 48V 6.1A 0.65Nm 1.94Nm 3800rpm 70mm 10mm 23.5mm 42mm 18mm FM1-07018 464W 48V 6.7A 1.22Nm 3.65Nm 3650rpm 70mm 18mm 32mm 42mm 27.5mm FM1-08508 283W 48V 7.4A 0.87Nm 2.62Nm 3100rpm 85mm 8mm 23mm 52mm 18mm FM1-08513 458W 48V 10.8A 1.41Nm 4.23Nm 3100rpm 85mm 13mm 27.5mm 52mm 22.5mm FM1-08523 959W 48V 11.3A 2.51Nm 7.53Nm 3650rpm 85mm 23mm 36mm 52mm 34mm FM1-08526 1086W 48V 11.5A 2.84Nm 8.53Nm 3650rpm 85mm 26mm 39mm 52mm 37mm FM1-11525 600W 48V 14.1A 3.82Nm 11.47Nm 1500rpm 115mm 25mm 39mm 74mm 32.7mm FM1-11550 634W 48V 15.1A 9.32Nm 27.96Nm 650rpm 115mm 50mm 68mm 74mm 57.7mm",
+      "compact_index": {
+        "supplier_id": "S006",
+        "source_supplier_id": "M013",
+        "name": "雷赛智能",
+        "technology_route": "步进/伺服电机+驱动器+运动控制器路线，适合AGV、机械臂末端和通用自动化轴；不主打一体化关节模组。",
+        "customization_supported": "是",
+        "product_categories": [
+          "无框电机"
+        ],
+        "product_series": [
+          "FM1 高密度无框电机"
+        ],
+        "model_count": 17,
+        "voltage_platforms": [
+          "24V",
+          "48V"
+        ],
+        "max_peak_torque_nm": 27.96,
+        "max_rated_torque_nm": 9.32,
+        "sample_lead_time": "标准驱动/电机3-7天",
+        "batch_lead_time": "标准品2-4周，定制电机6-10周",
+        "moq": "标准品1套，定制电机50套起",
+        "confidence": "medium",
+        "search_text": "雷赛智能 S006 步进/伺服电机+驱动器+运动控制器路线，适合AGV、机械臂末端和通用自动化轴；不主打一体化关节模组。 运动控制算法、驱动器产品矩阵和渠道交付成熟；人形机器人高扭矩密度关节经验需补充验证。 200-500 是 驱动参数适配1-2周；电机规格定制2-3个月 雷赛智能 S006 5-8万套步进/伺服电机及驱动器 4条电机装配线，3条驱动器生产线，1条老化线 SMT、自动绕线、驱动器老化柜、编码器测试台 测试数据：单月1万套通用伺服/步进驱动订单 标准品制造成熟，机器人关节总成能力弱 雷赛智能 S006 ISO9001、CE、RoHS 驱动器FCT、负载运行、温升、通讯、老化测试 0.5%-1.2% SN码+生产批次追溯，售后换修记录可查 驱动器测试台、老化柜、电机性能测试台 雷赛智能 S006 标准驱动/电机3-7天 标准品2-4周，定制电机6-10周 电机定制排产、芯片/功率器件波动 常用驱动器和电机型号有渠道库存 技术支持热线+区域工程师 90%-95% 雷赛智能 S006 步进/伺服电机驱动200-4000元 标准品1套，定制电机50套起 款到发货或账期客户月结 12-18个月 电机定制模具/开发费2-15万元 0.25 雷赛智能 电机-雷赛智能-FM1高密度无框电机与驱动系统彩页.pdf 无框电机 FM1 高密度无框电机 机器人关节、协作机器人、精密转台、医疗设备、自动化设备等高功率密度直驱场景 支持特殊定制、绕组形式、过热保护装置、反馈单元和出线形式等选项 仅提取手册第 5 页/第 6 页“03 产品规格”中的电机基本参数和机械尺寸。 FM1-02504 34W 24V 3.8A 0.03Nm 0.09Nm 10500rpm 25mm 5mm 13mm 11.6mm 7mm FM1-02508 68W 24V 4.3A 0.06Nm 0.19Nm 10500rpm 25mm 9.2mm 17.2mm 11.6mm 11mm FM1-03806 88W 24V 5.5A 0.1Nm 0.3Nm 8400rpm 38mm 7mm 14.8mm 18mm 8.1mm FM1-03812 126W 24V 6.1A 0.23Nm 0.69Nm 5250rpm 38mm 14mm 21.8mm 18mm 15.1mm FM1-05008 161W 48V 5.1A 0.29Nm 0.88Nm 5250rpm 50mm 8mm 20mm 30mm 16mm FM1-05014 202W 48V 5.3A 0.53Nm 1.59Nm 3650rpm 50mm 14mm 26mm 30mm 22mm FM1-06008 142W 48V 3.5A 0.32Nm 0.97Nm 4200rpm 60mm 8.2mm 17.7mm 30mm 14.8mm FM1-06013 215W 48V 5.3A 0.49Nm 1.47Nm 4200rpm 60mm 12.7mm 22.2mm 30mm 19.3mm FM1-06026 409W 48V 10.0A 0.93Nm 2.79Nm 4200rpm 60mm 26.3mm 35.8mm 30mm 32.8mm FM1-07010 257W 48V 6.1A 0.65Nm 1.94Nm 3800rpm 70mm 10mm 23.5mm 42mm 18mm FM1-07018 464W 48V 6.7A 1.22Nm 3.65Nm 3650rpm 70mm 18mm 32mm 42mm 27.5mm FM1-08508 283W 48V 7.4A 0.87Nm 2.62Nm 3100rpm 85mm 8mm 23mm 52mm 18mm FM1-08513 458W 48V 10.8A 1.41Nm 4.23Nm 3100rpm 85mm 13mm 27.5mm 52mm 22.5mm FM1-08523 959W 48V 11.3A 2.51Nm 7.53Nm 3650rpm 85mm 23mm 36mm 52mm 34mm FM1-08526 1086W 48V 11.5A 2.84Nm 8.53Nm 3650rpm 85mm 26mm 39mm 52mm 37mm FM1-11525 600W 48V 14.1A 3.82Nm 11.47Nm 1500rpm 115mm 25mm 39mm 74mm 32.7mm FM1-11550 634W 48V 15.1A 9.32Nm 27.96Nm 650rpm 115mm 50mm 68mm 74mm 57.7mm"
+      },
+      "raw_product_extraction": {
+        "supplier_id": "M013",
+        "source_document": "电机-雷赛智能-FM1高密度无框电机与驱动系统彩页.pdf",
+        "supplier": {
+          "supplier_id": "M013",
+          "company_name": "雷赛智能",
+          "company_description": "运动控制产品与解决方案供应商；本资料为 FM1 高密度无框电机与驱动系统彩页。",
+          "website": "www.leisai.com"
+        },
+        "product_series": [
+          {
+            "series_name": "FM1 高密度无框电机",
+            "series_category": "无框电机",
+            "notes": "仅提取手册第 5 页/第 6 页“03 产品规格”中的电机基本参数和机械尺寸。",
+            "application_scenarios": "机器人关节、协作机器人、精密转台、医疗设备、自动化设备等高功率密度直驱场景",
+            "customization_options": "支持特殊定制、绕组形式、过热保护装置、反馈单元和出线形式等选项",
+            "models": [
+              {
+                "model": "FM1-02504",
+                "key_parameters": {
+                  "rated_power": "34W",
+                  "rated_voltage": "24V",
+                  "rated_current": "3.8A",
+                  "rated_torque": "0.03Nm",
+                  "peak_torque": "0.09Nm",
+                  "rated_speed": "10500rpm",
+                  "extra_parameters": {
+                    "stator_outer_diameter_R": "25mm",
+                    "stator_core_height_h": "5mm",
+                    "stator_height_max_H": "13mm",
+                    "rotor_inner_diameter_r": "11.6mm",
+                    "rotor_height_L": "7mm"
+                  }
+                }
+              },
+              {
+                "model": "FM1-02508",
+                "key_parameters": {
+                  "rated_power": "68W",
+                  "rated_voltage": "24V",
+                  "rated_current": "4.3A",
+                  "rated_torque": "0.06Nm",
+                  "peak_torque": "0.19Nm",
+                  "rated_speed": "10500rpm",
+                  "extra_parameters": {
+                    "stator_outer_diameter_R": "25mm",
+                    "stator_core_height_h": "9.2mm",
+                    "stator_height_max_H": "17.2mm",
+                    "rotor_inner_diameter_r": "11.6mm",
+                    "rotor_height_L": "11mm"
+                  }
+                }
+              },
+              {
+                "model": "FM1-03806",
+                "key_parameters": {
+                  "rated_power": "88W",
+                  "rated_voltage": "24V",
+                  "rated_current": "5.5A",
+                  "rated_torque": "0.1Nm",
+                  "peak_torque": "0.3Nm",
+                  "rated_speed": "8400rpm",
+                  "extra_parameters": {
+                    "stator_outer_diameter_R": "38mm",
+                    "stator_core_height_h": "7mm",
+                    "stator_height_max_H": "14.8mm",
+                    "rotor_inner_diameter_r": "18mm",
+                    "rotor_height_L": "8.1mm"
+                  }
+                }
+              },
+              {
+                "model": "FM1-03812",
+                "key_parameters": {
+                  "rated_power": "126W",
+                  "rated_voltage": "24V",
+                  "rated_current": "6.1A",
+                  "rated_torque": "0.23Nm",
+                  "peak_torque": "0.69Nm",
+                  "rated_speed": "5250rpm",
+                  "extra_parameters": {
+                    "stator_outer_diameter_R": "38mm",
+                    "stator_core_height_h": "14mm",
+                    "stator_height_max_H": "21.8mm",
+                    "rotor_inner_diameter_r": "18mm",
+                    "rotor_height_L": "15.1mm"
+                  }
+                }
+              },
+              {
+                "model": "FM1-05008",
+                "key_parameters": {
+                  "rated_power": "161W",
+                  "rated_voltage": "48V",
+                  "rated_current": "5.1A",
+                  "rated_torque": "0.29Nm",
+                  "peak_torque": "0.88Nm",
+                  "rated_speed": "5250rpm",
+                  "extra_parameters": {
+                    "stator_outer_diameter_R": "50mm",
+                    "stator_core_height_h": "8mm",
+                    "stator_height_max_H": "20mm",
+                    "rotor_inner_diameter_r": "30mm",
+                    "rotor_height_L": "16mm"
+                  }
+                }
+              },
+              {
+                "model": "FM1-05014",
+                "key_parameters": {
+                  "rated_power": "202W",
+                  "rated_voltage": "48V",
+                  "rated_current": "5.3A",
+                  "rated_torque": "0.53Nm",
+                  "peak_torque": "1.59Nm",
+                  "rated_speed": "3650rpm",
+                  "extra_parameters": {
+                    "stator_outer_diameter_R": "50mm",
+                    "stator_core_height_h": "14mm",
+                    "stator_height_max_H": "26mm",
+                    "rotor_inner_diameter_r": "30mm",
+                    "rotor_height_L": "22mm"
+                  }
+                }
+              },
+              {
+                "model": "FM1-06008",
+                "key_parameters": {
+                  "rated_power": "142W",
+                  "rated_voltage": "48V",
+                  "rated_current": "3.5A",
+                  "rated_torque": "0.32Nm",
+                  "peak_torque": "0.97Nm",
+                  "rated_speed": "4200rpm",
+                  "extra_parameters": {
+                    "stator_outer_diameter_R": "60mm",
+                    "stator_core_height_h": "8.2mm",
+                    "stator_height_max_H": "17.7mm",
+                    "rotor_inner_diameter_r": "30mm",
+                    "rotor_height_L": "14.8mm"
+                  }
+                }
+              },
+              {
+                "model": "FM1-06013",
+                "key_parameters": {
+                  "rated_power": "215W",
+                  "rated_voltage": "48V",
+                  "rated_current": "5.3A",
+                  "rated_torque": "0.49Nm",
+                  "peak_torque": "1.47Nm",
+                  "rated_speed": "4200rpm",
+                  "extra_parameters": {
+                    "stator_outer_diameter_R": "60mm",
+                    "stator_core_height_h": "12.7mm",
+                    "stator_height_max_H": "22.2mm",
+                    "rotor_inner_diameter_r": "30mm",
+                    "rotor_height_L": "19.3mm"
+                  }
+                }
+              },
+              {
+                "model": "FM1-06026",
+                "key_parameters": {
+                  "rated_power": "409W",
+                  "rated_voltage": "48V",
+                  "rated_current": "10.0A",
+                  "rated_torque": "0.93Nm",
+                  "peak_torque": "2.79Nm",
+                  "rated_speed": "4200rpm",
+                  "extra_parameters": {
+                    "stator_outer_diameter_R": "60mm",
+                    "stator_core_height_h": "26.3mm",
+                    "stator_height_max_H": "35.8mm",
+                    "rotor_inner_diameter_r": "30mm",
+                    "rotor_height_L": "32.8mm"
+                  }
+                }
+              },
+              {
+                "model": "FM1-07010",
+                "key_parameters": {
+                  "rated_power": "257W",
+                  "rated_voltage": "48V",
+                  "rated_current": "6.1A",
+                  "rated_torque": "0.65Nm",
+                  "peak_torque": "1.94Nm",
+                  "rated_speed": "3800rpm",
+                  "extra_parameters": {
+                    "stator_outer_diameter_R": "70mm",
+                    "stator_core_height_h": "10mm",
+                    "stator_height_max_H": "23.5mm",
+                    "rotor_inner_diameter_r": "42mm",
+                    "rotor_height_L": "18mm"
+                  }
+                }
+              },
+              {
+                "model": "FM1-07018",
+                "key_parameters": {
+                  "rated_power": "464W",
+                  "rated_voltage": "48V",
+                  "rated_current": "6.7A",
+                  "rated_torque": "1.22Nm",
+                  "peak_torque": "3.65Nm",
+                  "rated_speed": "3650rpm",
+                  "extra_parameters": {
+                    "stator_outer_diameter_R": "70mm",
+                    "stator_core_height_h": "18mm",
+                    "stator_height_max_H": "32mm",
+                    "rotor_inner_diameter_r": "42mm",
+                    "rotor_height_L": "27.5mm"
+                  }
+                }
+              },
+              {
+                "model": "FM1-08508",
+                "key_parameters": {
+                  "rated_power": "283W",
+                  "rated_voltage": "48V",
+                  "rated_current": "7.4A",
+                  "rated_torque": "0.87Nm",
+                  "peak_torque": "2.62Nm",
+                  "rated_speed": "3100rpm",
+                  "extra_parameters": {
+                    "stator_outer_diameter_R": "85mm",
+                    "stator_core_height_h": "8mm",
+                    "stator_height_max_H": "23mm",
+                    "rotor_inner_diameter_r": "52mm",
+                    "rotor_height_L": "18mm"
+                  }
+                }
+              },
+              {
+                "model": "FM1-08513",
+                "key_parameters": {
+                  "rated_power": "458W",
+                  "rated_voltage": "48V",
+                  "rated_current": "10.8A",
+                  "rated_torque": "1.41Nm",
+                  "peak_torque": "4.23Nm",
+                  "rated_speed": "3100rpm",
+                  "extra_parameters": {
+                    "stator_outer_diameter_R": "85mm",
+                    "stator_core_height_h": "13mm",
+                    "stator_height_max_H": "27.5mm",
+                    "rotor_inner_diameter_r": "52mm",
+                    "rotor_height_L": "22.5mm"
+                  }
+                }
+              },
+              {
+                "model": "FM1-08523",
+                "key_parameters": {
+                  "rated_power": "959W",
+                  "rated_voltage": "48V",
+                  "rated_current": "11.3A",
+                  "rated_torque": "2.51Nm",
+                  "peak_torque": "7.53Nm",
+                  "rated_speed": "3650rpm",
+                  "extra_parameters": {
+                    "stator_outer_diameter_R": "85mm",
+                    "stator_core_height_h": "23mm",
+                    "stator_height_max_H": "36mm",
+                    "rotor_inner_diameter_r": "52mm",
+                    "rotor_height_L": "34mm"
+                  }
+                }
+              },
+              {
+                "model": "FM1-08526",
+                "key_parameters": {
+                  "rated_power": "1086W",
+                  "rated_voltage": "48V",
+                  "rated_current": "11.5A",
+                  "rated_torque": "2.84Nm",
+                  "peak_torque": "8.53Nm",
+                  "rated_speed": "3650rpm",
+                  "extra_parameters": {
+                    "stator_outer_diameter_R": "85mm",
+                    "stator_core_height_h": "26mm",
+                    "stator_height_max_H": "39mm",
+                    "rotor_inner_diameter_r": "52mm",
+                    "rotor_height_L": "37mm"
+                  }
+                }
+              },
+              {
+                "model": "FM1-11525",
+                "key_parameters": {
+                  "rated_power": "600W",
+                  "rated_voltage": "48V",
+                  "rated_current": "14.1A",
+                  "rated_torque": "3.82Nm",
+                  "peak_torque": "11.47Nm",
+                  "rated_speed": "1500rpm",
+                  "extra_parameters": {
+                    "stator_outer_diameter_R": "115mm",
+                    "stator_core_height_h": "25mm",
+                    "stator_height_max_H": "39mm",
+                    "rotor_inner_diameter_r": "74mm",
+                    "rotor_height_L": "32.7mm"
+                  }
+                }
+              },
+              {
+                "model": "FM1-11550",
+                "key_parameters": {
+                  "rated_power": "634W",
+                  "rated_voltage": "48V",
+                  "rated_current": "15.1A",
+                  "rated_torque": "9.32Nm",
+                  "peak_torque": "27.96Nm",
+                  "rated_speed": "650rpm",
+                  "extra_parameters": {
+                    "stator_outer_diameter_R": "115mm",
+                    "stator_core_height_h": "50mm",
+                    "stator_height_max_H": "68mm",
+                    "rotor_inner_diameter_r": "74mm",
+                    "rotor_height_L": "57.7mm"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "checksum_sha256": "932ed8553934acd5cc7fce708e576ff98ddb08cb3630fb4347208e812248e8cf"
+}
