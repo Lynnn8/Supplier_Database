@@ -1,9 +1,9 @@
 {
   "database_version": "trustaxis-suppliers-v6-shard",
   "shard_name": "part1",
-  "generated_at": "2026-06-12T09:41:20.424472+00:00",
+  "generated_at": "2026-06-22T01:40:42.630961+00:00",
   "source_database_version": "trustaxis-suppliers-v6",
-  "source_checksum_sha256": "596e99140570b1d4f1bef55e8e808777c4f71a46a834bf41d8d36fe9a687fe16",
+  "source_checksum_sha256": "950a5119edf4dc957d3d914ad78fe5471052b062ad1ae2ef900f5cfab80d0fee",
   "supplier_ids": [
     "S001",
     "S002",
@@ -13155,5 +13155,5 @@
       }
     }
   ],
-  "checksum_sha256": "95e0baa9aeb2fc1f8b78c735777a482073340b902e1aba11f2482f9c521cf5da"
+  "checksum_sha256": "ad178aed030f73e3f995b2f0ab0a2f7e13e75a0811f1ec2649abdee8ab15bd1c"
 }

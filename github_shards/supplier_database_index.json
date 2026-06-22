@@ -1,8 +1,8 @@
 {
   "database_version": "trustaxis-suppliers-v6-sharded-index",
-  "generated_at": "2026-06-12T09:41:20.440569+00:00",
+  "generated_at": "2026-06-22T01:40:42.649125+00:00",
   "source_database_version": "trustaxis-suppliers-v6",
-  "source_checksum_sha256": "596e99140570b1d4f1bef55e8e808777c4f71a46a834bf41d8d36fe9a687fe16",
+  "source_checksum_sha256": "950a5119edf4dc957d3d914ad78fe5471052b062ad1ae2ef900f5cfab80d0fee",
   "supplier_count": 9,
   "shards": [
     {
@@ -15,7 +15,7 @@
       ],
       "supplier_count": 3,
       "size_bytes": 714948,
-      "checksum_sha256": "95e0baa9aeb2fc1f8b78c735777a482073340b902e1aba11f2482f9c521cf5da"
+      "checksum_sha256": "ad178aed030f73e3f995b2f0ab0a2f7e13e75a0811f1ec2649abdee8ab15bd1c"
     },
     {
       "shard_name": "part2",
@@ -27,7 +27,7 @@
       ],
       "supplier_count": 3,
       "size_bytes": 93874,
-      "checksum_sha256": "932ed8553934acd5cc7fce708e576ff98ddb08cb3630fb4347208e812248e8cf"
+      "checksum_sha256": "9d263130ab2891d6096e0ab49d9dc29d95eedeb61e0484bded3ef96d8844bf87"
     },
     {
       "shard_name": "part3",
@@ -39,8 +39,8 @@
       ],
       "supplier_count": 3,
       "size_bytes": 239343,
-      "checksum_sha256": "9f8771a3b5d1aa6be751047a23f8db38aa4e57fe05456560cdd811b39e7553f4"
+      "checksum_sha256": "a31a2eb43526f7df9ead022ec00c1c2c197be2ff45ecfe64dc4f64e558897c00"
     }
   ],
-  "checksum_sha256": "46832d14122c37fb62ba61f0e00cb68aff30ab36c0c94a999a186f57096da44f"
+  "checksum_sha256": "86c952db9508e2ed5fea8ef0314f8e943b4f448cd4a9e82714a671f5b077eedf"
 }
